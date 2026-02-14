@@ -20,7 +20,7 @@ struct AddTaskView: View {
         
         let startDateComponent = DateComponents(year: currentDateComponent.year, month: currentDateComponent.month, day: currentDateComponent.day, hour: currentDateComponent.hour, minute: currentDateComponent.minute)
         
-        let endDateComponent = DateComponents(year: 2024, month: 12, day: 31)
+        let endDateComponent = DateComponents(year: 2026, month: 12, day: 31)
         
         return calendar.date(from: startDateComponent)!...calendar.date(from: endDateComponent)!
         

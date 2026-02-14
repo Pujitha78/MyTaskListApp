@@ -14,7 +14,7 @@ class PersistenceController {
     private let container: NSPersistentContainer
 
     private init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "myTaskApp")
+        container = NSPersistentContainer(name: "MyTaskListApp")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
